@@ -1,0 +1,21 @@
+{
+  "name": "pcba-oee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rick Wu",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/event-hubs": "^5.1.0",
+    "azure-kusto-data": "^0.3.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "request": "^2.88.2"
+  }
+}

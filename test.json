@@ -1,0 +1,46 @@
+{
+  "size": 0,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "line.raw": "HSB"
+          }
+        },
+        {
+          "range": {
+            "evt_dt": {
+              "from": 1595851200000,
+              "to": 1595894399999,
+              "include_lower": true,
+              "include_upper": true
+            }
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "reason": {
+      "terms": {
+        "field": "reason.raw",
+        "size": 5,
+        "order": {
+          "_count": "desc"
+        }
+      },
+      "aggs": {
+        "reason_code": {
+          "terms": {
+            "field": "reasoncode.raw",
+            "size": 1,
+            "order": {
+              "_count": "desc"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+    "lines": [
+        [
+            "HS2A"
+        ],
+        [
+            "HS2B"
+        ],
+        [
+            "HP2"
+        ],
+        [
+            "HS3A"
+        ],
+        [
+            "HS3B"
+        ],
+        [
+            "HP3"
+        ],
+        [
+            "HS4A"
+        ],
+        [
+            "HS4B"
+        ],
+        [
+            "HP4"
+        ],
+        [
+            "HS5A"
+        ],
+        [
+            "HP5"
+        ]
+    ],
+    "machineName": {
+        "HP": [
+            "ATE",
+            "AUTO LABELER",
+            "FICT",
+            "UN-FILL1",
+            "UN-FILL2",
+            "UNREFLOW",
+            "AUTO INSTALLER",
+            "INLINE ROUTER",
+            "AUTO PACKING"
+        ],
+        "HS": [
+            "PRINTER",
+            "SPI",
+            "REFLOW",
+            "AOI"
+        ]
+    },
+    "f232_machineName": {
+        "HP": [
+            "ATE",
+            "AUTO LABELER",
+            "FICT",
+            "UN-FILL1",
+            "UN-FILL2",
+            "UNREFLOW",
+            "AUTO INSTALLER",
+            "INLINE ROUTER",
+            "AUTO PACKING"
+        ],
+        "HS": [
+            "PRINTER",
+            "HTD",
+            "SPI",
+            "AOI1",
+            "REFLOW",
+            "AOI2"
+        ]
+    },
+    "f232_lines": [
+        [
+            "HS6"
+        ],
+        [
+            "HS7"
+        ],
+        [
+            "HS8"
+        ],
+        [
+            "HS9"
+        ],
+        [
+            "HSA"
+        ],
+        [
+            "HSB"
+        ],
+        [
+            "HSC"
+        ],
+        [
+            "HSE"
+        ],
+        [
+            "IS2"
+        ],
+        [
+            "IS3"
+        ]
+    ]
+}
